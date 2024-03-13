@@ -11,3 +11,11 @@ for (let i = 0; i < itemsPerRow * itemsPerRow; i++){
       );
     container.appendChild(gridElement);
 };
+
+const items = [...container.children];
+
+items.forEach(item => {
+    item.addEventListener('mouseenter', () => {
+        item.style.backgroundColor = 'red';
+    })
+})
