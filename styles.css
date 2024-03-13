@@ -1,0 +1,24 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.gridElement {
+    background-color: #000000;
+    border: 1px solid grey;
+}
+
+#container {
+    width: 800px;
+    height: 800px;
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 5px;
+}
+
+body {
+    text-align: center;
+}
