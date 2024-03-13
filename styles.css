@@ -2,11 +2,9 @@
 * {
     margin: 0px;
     padding: 0px;
-    box-sizing: border-box;
 }
 .gridElement {
-    background-color: #000000;
-    border: 1px solid grey;
+    background-color: rgb(0, 0, 0);
 }
 
 #container {
@@ -17,8 +15,16 @@
     margin: 0 auto;
     overflow: hidden;
     border-radius: 5px;
+    border: 1px solid rgb(255, 215, 0);
 }
 
 body {
     text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+button {
+    margin: 32px;
+    padding: 8px 16px;
+    width: 150px;
 }
